@@ -15,10 +15,10 @@ class Customers extends Component {
 
         <div className="Main-Page-About">
           <h1>Great Benefits and Perks CUSTOMERS.JS </h1>
+          <p>Top 1 Agent for GreatWide Transportation</p>
+          <p>Top 2 Agent for GreatWide Transportation</p>
           <p>Top 3 Agent for GreatWide Transportation</p>
-          <p>Top 3 Agent for GreatWide Transportation</p>
-          <p>Top 3 Agent for GreatWide Transportation</p>
-          <p>Top 3 Agent for GreatWide Transportation</p>
+          <p>Top 4 Agent for GreatWide Transportation</p>
         </div>
 
 
