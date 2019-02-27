@@ -1,0 +1,20 @@
+.Lanes-App{
+    display: grid;
+    height: 900px;
+    
+}
+
+.Main-Page-Lanes{
+    height: 600px;
+    background-color: blanchedalmond;
+    /* display: flex;
+    justify-content: center;
+    color: white; */
+}
+
+/* .Center-Pic-Lane{
+    height: 500px;
+    background-image:url('./img/semiSunRise.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+} */

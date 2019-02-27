@@ -5,18 +5,18 @@ import './Lanes.css';
 class Lanes extends Component {
   render() {
     return (
-      <div className="CustomerApp">
+      <div className="Lanes-App">
 
 
-        <div className="Main-Page-Customers">
+        <div className="Main-Page-Lanes">
           <h1>Great Wide Truckload management </h1>
-          <p>Top 1 Agent for GreatWide Transportation</p>
+          <p>Top 1 Agent for GreatWide Transportation LANES.JS</p>
         </div>
 
-        <div className="Main-Page-About">
-          <h1>Great Benefits and Perks </h1>
-          <p>Top 3 Agent for GreatWide Transportation</p>
+        <div className="Center-Pic-Lane">
+            Here's an Image
         </div>
+
 
 
 

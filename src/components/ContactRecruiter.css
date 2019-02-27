@@ -1,0 +1,13 @@
+.Contact-Recruiter-App{
+    height: 100vh;
+    display: grid;
+    
+}
+
+.Contact-Recruiter-Form{
+    height: 500px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

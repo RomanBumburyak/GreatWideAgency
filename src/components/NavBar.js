@@ -6,19 +6,39 @@ class NavBar extends Component {
   render() {
     return (
 
-<div> 
+    <div> 
       <h3 style={{backgroundColor:'aqua'}}>Web Application currently in Progress, (courtesy of 7oaks.io)</h3>
-
-        <div className="Main-NavBar">
-          <div className="Main-Page-NavBar">
-            
-            <a className="anchor-nav">Apply</a>
-            <a className="anchor-nav">Services</a>
-            <a className="anchor-nav">About Us</a>
-
-          </div>
-        </div>
-
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+              <a class="navbar-brand" href="#">Mission Transport</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+              </button>
+           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lanes</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown Nav
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                 </li>
+               </ul>
+              </div>
+            </nav>
+         </div>
        </div>
 
 

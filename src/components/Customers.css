@@ -1,15 +1,10 @@
-.CustomerApp{
-  background-color: blue;
+.Customer-App{
+  background-color:rgb(85, 211, 102);
   display: grid;
-  
-  height: 500px;
-
-
-}
-
-.Main-Page-About{
-  
-  height: 400px;
-  background-color: yellow;
+  height: 100vh;
   flex-wrap: wrap;
+  overflow-wrap: inherit;
+
+
 }
+
